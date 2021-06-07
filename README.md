@@ -1,2 +1,34 @@
 # bikesharing
 Module 14: New York CititBike with Tableau
+
+## Overview
+We went on trip with Kate to New YorkCity (NYC) and one of the biggest things that made the trip was the NYC Citibike program, a bikesharing program that allowed us to see multiple parts of the city. Not only that, but we see tons and tons of people riding them, locals and tourists. Kate has decided to pitch an idea to start a similar bikesharing in our home town Des Moines, Iowa. 
+- Thanks to Citibike sharing their rideshare data, we decided to use the August 2019 data as a reference. We choose August because it is a summer month because of the warmer weather, more people outside means more business. Thanks to Tableau, we can visualize different aspects of the day that will help sell the program to investors. 
+## Results
+Through Tableau, we have created a story to display the data. We have made seven different visualizations that will help display the important information and broke it up into three general categories: Checkout Times, Trips per Hour, Trips by Gender. 
+
+Here is a link to the full Tableau Public Story: [NYC Citibik Story](https://public.tableau.com/app/profile/caelan.doherty/viz/NYC_Citibike_Challenge_16230017941290/NYCCitibikeStory). Below are screenshots of the story with small descriptions and key take away summary points 
+
+#### Checkout Times
+![bikeshare_slide1](https://user-images.githubusercontent.com/79118630/120946989-58e6fc80-c70c-11eb-9a4f-464723a3cf90.png)
+- Both graphs look at total number of bikes per trip duration. Each graph is split into 3 sections by hours of tripduration, and each minute is shown by the tick marks on the x-axis. As we can see majority of the rides are less than 1 hour, and start to go lower than 100 total rides at the 2 hour mark.  
+- The orange line in the second graph represent the male riders, before looking at the gender breakdowns, we can see that those who identify as male use the bikes more frequently. 
+
+#### Trips per Hour
+![bikeshare_slide2](https://user-images.githubusercontent.com/79118630/120947024-71efad80-c70c-11eb-8946-c5805e4f750e.png)
+- The first visualization is a heatmap displaying when users start using the bikes during days of the week. We can see during the week, 6-9am and 5-7pm, these seem to be the highest uses of the bikes. These are also typical times when people commute to and from work. On the weekend it is almost flipped, 9am - 5pm have the most used bikes. A lot of people are probably sleeping in on the weekends, and tourists probalby come more on the weekends.
+- The bar graph shows total number of rides per hour to show peak hours. This shows the same information but a little more straightfoward. 5pm has the most trips, 6pm has the second most and 8am has the thrid most. This is helpful to know because we can see that more people use citibikes after 12pm. 
+
+#### Trips by Gender
+![bikeshare_slide3](https://user-images.githubusercontent.com/79118630/120947035-7caa4280-c70c-11eb-8300-8c551aaf0464.png)
+- We used 3 visualizations to address gender use: a pie chart showing overall gender usage, the same heatmap as used in the last story slide but is split into 3 sections for genders, and another heatmap that is split into a 2:3 matrix with the start time by the days on the y-axis. 
+- First we have the pie chart in the lower right hand corner. We don't have the actual precentage breakdowns, those identifying as males make over half of the users, females look to make up around a quarter (25%) of the users. 
+- For the first heatmap, males and females have similar peaks in the morning and afternoons during the weekday, and in the middle of the day on the weekends. Those who did not identify their gender have similar low numbers all over, but have some usage during the daytime on the weekends. 
+- The last heatmap shows trip count breakdown by weekday and gender, but goes the extra step and identifies subscribers and general customers. Male and Females have plenty of more uses by subscribers, where as the unkown section has more in customers. This is probably because those who are subscribers give more information when filling out an account. Those who just plan on using it one time probably don't have to fill out all the information fields or just choose not to fill out gender. 
+
+## Summary
+- It is also clear that people aren't using these bikes for long times, usually to get to point-a to point-b quickly if peak trip durations are around the 5 minute mark. This is important because this will help determine where to put the citibike stations around Des Moines. Des Moines Iowa isn't as a big tourist attraction as NYC and also doesn't have many corporation offices, headquarters and convetions, much like NYC. Station placement seems to be a major factor, if users typically use these for under 10 minutes, it will be challenging to find the right spots that are equally distanced so that when people potentially need to get somewhere quick, they choose to use the bike. 
+- One big takeaways here would be that majority of users are male, infact according to the pie char it looks like almost 2/3 of users were male. If the unknown part was split between male and female, the pie chart would look closer to females covering 1/3 and males covering 2/3. Since also that majority of the uses are during work travel times, it will be helpful to see how the gender workforce breakdown is in Des Moines. If their are more women working in the city, this shouldn't deteriate from starting a bikeshare program, but could be helpful to know for marketing purposes. 
+#### Additional visualizations
+- Another visual that should be used would be to look at age ranges. Looking at the gender heatmaps, Kate should think about replacing the gender fields with age ranges. Whether it be 2, 3, 5, or 10 year ranges, this will be dependent on the data set used. If we see that majority of users tend to be younger, knowing the typical age of travelers or locals in Des Moines will help compare. Same with subscriber and customer heatmap, knowing the age range of typical subscribers and one time users will help with pricing and marketing campaigns. 
+- Another visual that could be helpful could be a bubble chart layered on top of a map, showing where stations are getting the most uses. Either by people starting or ending their citibike trips. NYC is a big tourist attraction but also has many other facets to it. Seeing the most frequently used stations may help determine whether or not people are using these bikes for more casual purposes, or for actual means of transportaiton. If the most used stations are just in Central Park in Manhattan, investors are not going to go for a company that bases its sales off of one of the most recognized parks in the country. This will also help Kate determine if bringing a citibike program to Iowa is plausible and if it hurts her presentation, then she knows to not bring it up. 
